@@ -1,0 +1,75 @@
+ /* style for navbar-1 */
+ #navbar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+       
+.margin{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#links a{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    font-size: 16px;
+    font-family: Arial;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+/* style for navbar-2 */
+#navbar-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.logo-2{
+    height:30px;
+    width: 30px;
+    margin-left: 10px;
+}
+#navbar-2-logo, #search-links{
+    width: 25%;
+}
+#navbar-2-links{
+    width: 50%;
+}
+#search-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    #search{
+        height: 45px;
+        width: 200px;
+        border-radius: 25px;
+        padding-left: 60px;
+        font-size: x-large;
+    }
+    input.search{
+        background: transparent url("/assets/search.svg") no-repeat;
+    }
+    .icon {
+        background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+        background-size: 28px;
+        background-color: #f5f5f5;
+        border-style: none;
+      }  
+
+
+#navbar-2-links a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
