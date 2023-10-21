@@ -49,11 +49,11 @@
     align-items: center;
     }
     #search{
-        height: 45px;
+        height: 35px;
         width: 200px;
         border-radius: 25px;
         padding-left: 60px;
-        font-size: x-large;
+        font-size: large;
     }
     input.search{
         background: transparent url("/assets/search.svg") no-repeat;
