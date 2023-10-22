@@ -93,17 +93,17 @@ section{
     min-height: 320px;
 }
 section>h1{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bolder;
     font-family: impact;
 }
 .image-words{
     font-size: larger;
-    margin: 30px;
+    margin: 20px;
     
 }
 .image-content{
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: larger;
     margin:30px;
 }
