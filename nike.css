@@ -85,3 +85,9 @@
     margin: 0;
     padding: 10px;
 }
+#image-cards{
+    display: flex;
+}
+#image-cards img{
+    width: 32%;
+}
