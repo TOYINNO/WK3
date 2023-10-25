@@ -1,0 +1,98 @@
+
+
+#board{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    color: white;
+    background-color: gray;
+    
+    
+   
+}
+
+
+
+#univelcity-img{
+    cursor: pointer;
+    transition: transform;
+    transition-timing-function: ease;
+    transition-delay: 500ms;
+    transition-duration: 5s;
+    width: 400px;
+    margin-right: 16px;
+}
+#univelcity-img:hover{
+    transform: scale(1.2);
+}
+   
+#text-1:hover{
+    background-color: #17355c;
+    transition: background, transform;
+    transition-timing-function: ease;
+    transition-delay: 500ms;
+    transition-duration: 5s;
+    transform: rotate(360deg);
+    color: white;
+    padding: 50px;
+}
+#text-1{
+    padding-top: 10px;
+    color: red;
+}
+#drop-down{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    
+}
+#entirelist{
+    position: relative;
+    /* display: inline-block; */
+}
+#link{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 120px;
+    box-shadow: 0px 2px 2px 0px red;
+    z-index: 1;
+    opacity: 1;
+    display: block; 
+    }
+
+#link a{
+    color: violet;
+    padding: 6px 12px;
+    text-decoration: none;
+    display: block;
+}
+#link a:hover{
+    background-color: white;
+}
+#entirelist:hover #link{
+    display: block;
+    opacity: 0;
+    transition: opacity 2s;
+
+}
+    
+#form{
+    background-color: #17355c;
+    background-size: contain;
+    border: 1px solid red;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fade-in-text {
+    font-family: Arial;
+    font-size: 15px;
+    animation: fadeIn 5s;
+      }
+.button:hover{
+    cursor: pointer;
+    background-color: green;
+}
